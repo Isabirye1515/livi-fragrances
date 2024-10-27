@@ -1,0 +1,12 @@
+.images{
+  border: 2px solid #ddd;
+  border-radius:4px;
+  width:400px;
+  display:flex;
+  flex-direction: column;
+}
+.hero{
+  background-image: url("../src/assets/attachments/z.webp");
+  object-fit:cover ;
+  background-position: center;
+}
