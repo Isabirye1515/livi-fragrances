@@ -1,5 +1,8 @@
 import React from 'react'
 import aboutImg from "../";
+import imagea from "../assets/attachments/b.webp"
+import imageb from "../assets/attachments/a.webp"
+import imagec from "../assets/attachments/c.webp"
 import { Button, Column, Grid } from '@carbon/react';
 export default function About() {
   return (
@@ -9,7 +12,7 @@ export default function About() {
         <h1 class="h-1 text-white fw-bolder " bg-dark rounded > Elegant and Alluring </h1>
         <h2 class="text-success fw-bold" >Discover the Art of Pure Fragrance</h2>
         <h3  class="text-secondary fw-lighter" >Crafted from the finest essential oils, our perfumes captivate the senses with long-lasting, natural aromas. Experience the luxury of fragrance without compromise.</h3><br />
-        
+        <img src={imagec} height={200}  width="100%" alt="image one"  style={{objectFit:"cover"}} />
         <Button>Shop Now</Button> <br />
         
         
@@ -18,6 +21,7 @@ export default function About() {
         <h1 class="h-1 text-white fw-bolder  " bg-dark rounded > Luxury and Quality</h1>
         <h2  class="text-success fw-bold" >Unleash the Essence of True Luxury</h2>
         <h3  class="text-secondary fw-lighter">Handcrafted with natural oils for depth and longevity, our perfumes offer a sophisticated scent experience, perfect for any occasion.</h3><br />
+        <img src={imagea} height={200}  width="100%" alt="image one"  style={{objectFit:"cover"}} />
         <Button>Explore Collection</Button> <br />
         </Column>
        
@@ -25,6 +29,7 @@ export default function About() {
         <h1 class="h-1 text-white fw-bolder " bg-dark rounded > All-Natural and Pure Ingredients</h1>
         <h2  class="text-success fw-bold" >Pure, Potent, and Alluring</h2>
         <h3  class="text-secondary fw-lighter" >Our oil-based perfumes are crafted with only the purest ingredients, offering a clean, long-lasting scent that evolves throughout the day.</h3><br />
+        <img src={imageb} height={200}  width="100%" alt="image one"  style={{objectFit:"cover"}} />
         <Button>Why Chose Oil</Button><br />
         </Column>
 
