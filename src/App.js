@@ -6,6 +6,8 @@ import Gallery from './component/Gallery';
 import { Route, Router, Routes } from 'react-router-dom';
 import Footer from './component/footer';
 import HeroSection from './component/HeroSection';
+import Contact from './component/contact';
+import Info from './component/info';
 function App() {
   return (
     <div>
@@ -14,6 +16,9 @@ function App() {
   <Routes>
     <Route path='/' element={<HeroSection/>} />
     <Route path='/gallery' element={<Gallery />} />
+    <Route path='/contact' element={<Contact />} />
+    <Route path='/infor' element={<Info />} />
+    
 
   </Routes>
 

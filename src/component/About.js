@@ -14,7 +14,10 @@ export default function About() {
         <h2 class="text-success fw-bold" >Discover the Art of Pure Fragrance</h2>
         <h3  class="text-secondary fw-lighter" >Crafted from the finest essential oils, our perfumes captivate the senses with long-lasting, natural aromas. Experience the luxury of fragrance without compromise.</h3><br />
         <img src={imagec} height={300}  width="100%" alt="image one"  style={{objectFit:"cover"}} />
-        <Button>Shop Now</Button> <br />
+        <Link to="/contact" >
+        <Button>Shop Now</Button> 
+        </Link>
+      <br />
         
         
         </Column>
@@ -35,7 +38,10 @@ export default function About() {
         <h2  class="text-success fw-bold" >Pure, Potent, and Alluring</h2>
         <h3  class="text-secondary fw-lighter" >Our oil-based perfumes are crafted with only the purest ingredients, offering a clean, long-lasting scent that evolves throughout the day.</h3><br />
         <img src={imageb} height={300}  width="100%" alt="image one"  style={{objectFit:"cover"}} />
+        <Link  to="/infor" >
         <Button>Why Chose Oil</Button><br />
+        </Link>
+        
         </Column>
 
         <Column  lg={8}  md={4}  sm={4}  >
