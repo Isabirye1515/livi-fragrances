@@ -1,4 +1,6 @@
+import { Button } from '@carbon/react'
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Info() {
     const [info] = useState(
@@ -50,6 +52,11 @@ export default function Info() {
 
             </div>
         ))}
+        <br/><br/>
+
+<Link  to="/" >
+      <Button>BACK</Button>
+      </Link>
       
     </div>
   )

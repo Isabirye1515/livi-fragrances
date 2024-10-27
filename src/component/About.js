@@ -48,8 +48,8 @@ export default function About() {
         <h1 class="h-1 text-white fw-bolder " bg-dark rounded > Timeless and Classic Appeal</h1>
         <h2  class="text-success fw-bold"  >Perfume, Perfected by Nature</h2>
         <h3  class="text-secondary fw-lighter" >Dive into a world where timeless luxury meets pure, nature-inspired ingredients. Our oil perfumes are designed to linger and leave a lasting impression.</h3><br />
-        
-        <Button>Explore Our Process</Button><br />
+    
+        <div  class="bg-primary rounded text-white p-4 fw-lighter " >  LIVI FRAGRANCES ARE THE BEST ON MARKET NOW </div>
         
         </Column>
        </Grid>
