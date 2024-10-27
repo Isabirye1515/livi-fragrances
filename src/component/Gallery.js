@@ -14,7 +14,8 @@ import imagel from "../assets/attachments/l.jpg";
 import imagep from "../assets/attachments/p.jpg";
 import imagesFile from "../assets/attachments/s.jpg"; // Renamed to avoid conflict
 import imagev from "../assets/attachments/v.jpg";
-import { Grid, Column } from '@carbon/react';
+import { Grid, Column,Button } from '@carbon/react';
+import { Link } from 'react-router-dom';
 
 export default function Gallery() {
   // Renamed useState variable to avoid conflict
@@ -40,13 +41,21 @@ export default function Gallery() {
     <div>
       <Grid  >
         {galleryImages.map((image) => (
-          <Column lg={4} md={2} sm={2}   class="col"key={image.id}  >
-            <img src={image.src} alt={`Image ${image.id}`} height={250} width={250}  style={{objectFit:"cover"}} />
+          <Column lg={5} md={4} sm={4}   class="col"key={image.id}  >
+            <img src={image.src} alt={`Image ${image.id}`} height={400} width="100%" style={{objectFit:"cover"}} class="rounded" />
           </Column>
        
         ))}
    
     </Grid>
+    <br/><br/>
+    <center>
+    <Link to="/">
+    <Button  type="round" >Home</Button>
+    </Link>
+    </center>
+    <br/><br/>
+
     </div>
   );
 }

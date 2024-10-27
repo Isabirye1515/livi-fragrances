@@ -7,10 +7,6 @@ export default function Home() {
   return (
     <div class="container  " >
       <img src={imageM}  height="40%" width="100%"  alt='head image' style={{objectFit:"cover"}} />
-      <HeroSection />
-      <br />
-      <About />
-
     </div>
   )
 }
