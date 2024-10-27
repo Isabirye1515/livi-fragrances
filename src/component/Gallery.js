@@ -38,13 +38,14 @@ export default function Gallery() {
   ]);
 
   return (
-    <div>
+    <div class='container' >
       <Grid  >
         {galleryImages.map((image) => (
-          <Column lg={5} md={4} sm={4}   class="col"key={image.id}  >
-            <img src={image.src} alt={`Image ${image.id}`} height={400} width="100%" style={{objectFit:"cover"}} class="rounded" />
-          </Column>
-       
+        <div  key={image} >
+
+            <img src={image.src} alt={`Image ${image.id}`} height={1000} width={1000} style={{objectFit:"cover"}} class="rounded  img-fluid p-2" />
+          
+            </div>
         ))}
    
     </Grid>
