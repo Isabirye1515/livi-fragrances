@@ -1,5 +1,5 @@
 import React from 'react'
-import footerImg from "../assets/attachments/o.jpg"
+import footerImg from "../assets/attachments/n.jpg"
 export default function Footer() {
   return (
     <div  class="bg-secondary" >
