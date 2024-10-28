@@ -55,14 +55,14 @@ export default function Contact() {
   }
 
   return (
-    <div className="container">
+    <div >
       <br/><br/>
       <center>
-<div class="bg-dark fw-bold text-secondary p-5 rounded" > Here Order For Fragrances In Comment Section. </div>
+<div class="bg-dark fw-bold text-secondary p-5 rounded  m-2" > Here Order For Fragrances In Comment Section. </div>
 </center>
       <br/><br/>
 
-      <Accordion title="Contact Information">
+      <Accordion  class="m-3" title="Contact Information">
         <AccordionItem title="Here is CEO Info for Further Knowledge">
          CEO's Name is: Olivia Namigade<br/>
           From: UGANDA<br/>
@@ -71,7 +71,7 @@ export default function Contact() {
       </Accordion>
 
       <br/><br/>
-      <div class="bg-white shadow p-4" >
+      <div class="bg-white shadow p-4 m-2" >
         <center>
       <div class="bg-success fw-bolder text-white p-1 rounded" h-2 > Make Your Order for Fragrances </div>
       </center>
@@ -145,7 +145,7 @@ export default function Contact() {
       </div>
       <br/><br/>
 
-      <Link to="/">
+      <Link  class="m-5" to="/">
         <Button>BACK</Button>
       </Link>
       <br /><br />

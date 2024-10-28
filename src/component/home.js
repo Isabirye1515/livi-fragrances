@@ -5,7 +5,7 @@ import { Button } from '@carbon/react'
 import About from './About';
 export default function Home() {
   return (
-    <div class="container  " >
+    <div  >
       <img src={imageM}  height="40%" width="100%"  alt='head image' style={{objectFit:"cover"}} />
     </div>
   )
