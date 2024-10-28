@@ -22,7 +22,7 @@ export default function Contact() {
 
   const Purfumes = async (data) => {
     try {
-      const response = await fetch("https://email-server-rl3u.vercel.app/get-email", {
+      const response = await fetch("https://email-server-rl3u.vercel.app/get-purfumes", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
