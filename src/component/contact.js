@@ -140,15 +140,16 @@ export default function Contact() {
           onChange={handleChange} 
         /> <br/><br/>
 
-        <Button type="submit">Submit</Button>
+        <Button className='button' type="submit">Submit</Button>
       </Form>
       </div>
       <br/><br/>
 
-      <Link  class="m-5" to="/">
-        <Button>BACK</Button>
+      <Link  class="m-5 " to="/">
+        <Button  kind='secondary' className='button'>BACK</Button>
       </Link>
       <br /><br />
+     
     </div>
   )
 }

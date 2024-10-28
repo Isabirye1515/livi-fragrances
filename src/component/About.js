@@ -15,7 +15,7 @@ export default function About() {
         <h3  class="text-secondary fw-lighter" >Crafted from the finest essential oils, our perfumes captivate the senses with long-lasting, natural aromas. Experience the luxury of fragrance without compromise.</h3><br />
         <img src={imagec} height={300}  width="100%" alt="image one"  style={{objectFit:"cover"}} />
         <Link to="/contact" >
-        <Button>Shop Now</Button> 
+        <Button  className='button' >Shop Now</Button> 
         </Link>
       <br />
         
@@ -28,7 +28,7 @@ export default function About() {
         <img src={imagea} height={350}  width="100%" alt="image one"  style={{objectFit:"cover"}} />
         
         <Link  to="gallery" >
-        <Button>Explore Collection</Button> 
+        <Button  className='button' >Explore Collection</Button> 
         </Link>
 
         </Column>
@@ -39,7 +39,7 @@ export default function About() {
         <h3  class="text-secondary fw-lighter" >Our oil-based perfumes are crafted with only the purest ingredients, offering a clean, long-lasting scent that evolves throughout the day.</h3><br />
         <img src={imageb} height={300}  width="100%" alt="image one"  style={{objectFit:"cover"}} />
         <Link  to="/infor" >
-        <Button>Why Chose Oil</Button><br />
+        <Button  className='button' >Why Chose Oil</Button><br />
         </Link>
         
         </Column>

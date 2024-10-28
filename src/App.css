@@ -5,8 +5,18 @@
   display:flex;
   flex-direction: column;
 }
-.hero{
-  background-image: url("../src/assets/attachments/z.webp");
-  object-fit:cover ;
-  background-position: center;
+.button {
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  animation: pulse 1.5s infinite;
+}
+
+
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
 }

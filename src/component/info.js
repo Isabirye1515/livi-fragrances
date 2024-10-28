@@ -55,7 +55,7 @@ export default function Info() {
         <br/><br/>
 
 <Link  to="/" >
-      <Button>BACK</Button>
+      <Button  className='button' >BACK</Button>
       </Link>
       
     </div>

@@ -52,7 +52,7 @@ export default function Gallery() {
     <br/><br/>
     <center>
     <Link to="/">
-    <Button  type="round" >Home</Button>
+    <Button  className='button' >Home</Button>
     </Link>
     </center>
     <br/><br/>
