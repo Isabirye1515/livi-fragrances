@@ -57,17 +57,27 @@ export default function Contact() {
   return (
     <div className="container">
       <br/><br/>
+      <center>
+<div class="bg-dark fw-bold text-secondary p-5 rounded" > Here Order For Fragrances In Comment Section. </div>
+</center>
+      <br/><br/>
 
       <Accordion title="Contact Information">
         <AccordionItem title="Here is CEO Info for Further Knowledge">
-          Our CEO's Name is: Olivia<br/>
+         CEO's Name is: Olivia Namigade<br/>
           From: UGANDA<br/>
           Phone Number: +256781794216<br/>
         </AccordionItem>
       </Accordion>
 
       <br/><br/>
-      <Form onSubmit={handleSubmit}>
+      <div class="bg-white shadow p-4" >
+        <center>
+      <div class="bg-success fw-bolder text-white p-1 rounded" h-2 > Make Your Order for Fragrances </div>
+      </center>
+      <br /><br />
+
+      <Form onSubmit={handleSubmit}   >
         <TextInput 
           id="name" 
           labelText="Your Name" 
@@ -132,6 +142,7 @@ export default function Contact() {
 
         <Button type="submit">Submit</Button>
       </Form>
+      </div>
       <br/><br/>
 
       <Link to="/">
