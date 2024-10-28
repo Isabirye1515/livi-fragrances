@@ -44,11 +44,12 @@ export default function Info() {
           
     )
   return (
-    <div class="container  bg-dark rounded p-4 " >
+    <div class=" rounded p-4 " >
         {info.map((inf)=>(
-            <div key={inf.id} >
-                <h1 class="fw-bold text-white bg-black rounded" >{inf.title}</h1>
-                <h2 class="fw-lighter text-white" >{inf.description}</h2>
+            <div key={inf.id}  class="p-4 shadow  bg-dark rounded m-3 " >
+                <i><h5 class="text-white fw-bolder " >{inf.title}</h5></i>
+                <hr />
+                <h6 class="text-white fst-italic ">{inf.description}</h6>
 
             </div>
         ))}
